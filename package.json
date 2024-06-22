@@ -1,0 +1,27 @@
+{
+  "name": "reactjs-input-search",
+  "version": "1.0.3",
+  "description": "search input with suggestion",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "input search",
+    "input suggestion"
+  ],
+  "author": "Rishabh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-react": "^7.24.7"
+  }
+}

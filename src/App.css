@@ -1,0 +1,35 @@
+.inputBox{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputStyle{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #8a6f6f;
+    outline: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+
+
+}
+.suggestionBox{
+    width: 250px;
+     max-height: 400px;
+     overflow-y: auto;
+     overflow-x: hidden;
+     margin-top: 5px;
+     padding: 10px;
+     /* border: 1px solid saddlebrown; */
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.suggestionItem{
+    padding: 7px;
+    cursor: pointer;
+}
